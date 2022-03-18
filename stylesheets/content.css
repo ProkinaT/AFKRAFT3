@@ -364,19 +364,19 @@ background-color: #3c3c3c;
   width: 374px;
   height: 168px;
   background-color: white;
-  display: none;
 }
-.adv p {
- color: black;
- padding-top: 32px;
- padding-bottom: 32px;
- padding-left: 21px;
- padding-right: 21px;
 
-}
-.advh {
-  opacity: 1;
-}
+ .ui-tooltip {
+   width: 338px;
+   height: 113px;
+   padding-top: 10px;
+   padding-left: 10px;
+   color: black;
+   font-family: "Zyablik";
+   font-size: 30px;
+   background: white;
+ }
+
 .frame2 {
   position: absolute;
   overflow: hidden;
