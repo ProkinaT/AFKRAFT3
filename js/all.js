@@ -370,24 +370,29 @@ $( function() {
   })
 })
 // НЕ РАБОТАЕТ СКРОЛЛТОП
-$(function(){
-    $(".restart").bind('click', function(e){
-        $(".handl").addClass("handl1");
-        $(".handc").addClass("handc1");
-        $(".handr").addClass("handr1");
-    setTimeout(function(){
-  		location.reload();
-  	}, 2000);
-    $(".site").animate({
-      scrollTop:0
-    },1800);
+// $(function(){
+//     $(".restart").bind('click', function(e){
+//         $(".handl").addClass("handl1");
+//         $(".handc").addClass("handc1");
+//         $(".handr").addClass("handr1");
+//     setTimeout(function(){
+//   		location.reload();
+//   	}, 2000);
+//     $(".site").animate({
+//       scrollTop:0
+//     },1800);
+//     });
+// });
+$( function() {
+    $( document ).tooltip({
+      position: {
+        using: function( position, feedback ) {
+          $( this ).css();
+          $( "zaafro" )
+            .addClass( "adv")
+            .appendTo( this );
+        }
+      }
     });
-});
-// $( function() {
-//     $( document ).tooltip();
-//   } );
-// $(document).ready(function(){
-//   $(".mask").click(function(){
-//     if ($(".mask").hasClass("circlegreen")){
-//       $(".patterns").addClass("circlegreen");
-//     },);
+  } );
+  
