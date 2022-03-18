@@ -130,6 +130,10 @@
  h2 {
    transform: scale(0.9);
  }
+ .ui-tooltip {
+   top: -2040px;
+   left: 1008px;
+ }
  .frame2 {
    transform: scale(1.4);
    height: 830px;
