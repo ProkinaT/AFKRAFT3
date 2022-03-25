@@ -76,7 +76,7 @@ $(document).ready(function(){
   });
 });
 // глаза
-$(document).ready(function(){
+$(function(){
   $(".eyes").click(function(){
     if ($(".eyes").hasClass("y1")){
       $(".eyes").addClass("y2");
@@ -152,7 +152,7 @@ $(document).ready(function(){
   });
 });
 // нос
-$(document).ready(function(){
+$(function(){
   $(".nose").click(function(){
     if ($(".nose").hasClass("n1")){
       $(".nose").addClass("n2");
@@ -228,7 +228,7 @@ $(document).ready(function(){
   });
 });
 // рот
-$(document).ready(function(){
+$(function(){
   $(".mouth").click(function(){
     if ($(".mouth").hasClass("m1")){
       $(".mouth").addClass("m2");
@@ -358,31 +358,41 @@ $( function() {
 $( function() {
     $(".circlegreen" ).draggable();
   } );
+// кнопка готово
+  $(function(){
+  		$(".next").click(function (){
+  			$("body,html").animate({
+  				scrollTop:2160
+  			},800);
+  		});
+  });
 
   $(function() {
   $('.next').click(function() {
-    $(".site").animate({
-      scrollTop: 2160
-    },1000);
     setTimeout(function(){
       $(".head, .eyes1, .nose1, .mouth1, .patterns").addClass("op");
   }, 100);
-  })
-})
-// НЕ РАБОТАЕТ СКРОЛЛТОП
-// $(function(){
-//     $(".restart").bind('click', function(e){
-//         $(".handl").addClass("handl1");
-//         $(".handc").addClass("handc1");
-//         $(".handr").addClass("handr1");
-//     setTimeout(function(){
-//   		location.reload();
-//   	}, 2000);
-//     $(".site").animate({
-//       scrollTop:0
-//     },1800);
-//     });
-// });
+  });
+});
+ // кнопка заново
+$(function(){
+    $(".restart").bind('click', function(e){
+        $(".handl").addClass("handl1");
+        $(".handc").addClass("handc1");
+        $(".handr").addClass("handr1");
+    setTimeout(function(){
+  		location.reload();
+  	}, 3000);
+    });
+});
+$(function(){
+		$(".restart").click(function (){
+			$("body,html").animate({
+				scrollTop:0
+			}, 800);
+		});
+});
+// всплывалка
 $( function() {
     $( document ).tooltip({
       position: {
@@ -394,5 +404,14 @@ $( function() {
         }
       }
     });
-  } );
-  
+  });
+  // паттерны фрэйм 2
+  $( function() {
+    $( "hat" ).draggable();
+    $( "mask" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+      }
+    });
+  });
