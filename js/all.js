@@ -362,7 +362,7 @@ $( function() {
   $(function(){
   		$(".next").click(function (){
   			$("body,html").animate({
-  				scrollTop:2160
+  				scrollTop:900
   			},800);
   		});
   });
