@@ -365,6 +365,9 @@ background-color: #3c3c3c;
   height: 168px;
   background-color: white;
 }
+.ui-helper-hidden-accessible {
+  display: none;
+}
 
  .ui-tooltip {
    width: 338px;
@@ -401,7 +404,7 @@ background-color: #3c3c3c;
   justify-content: center;
   height: 800px;
   width: 800px;
-  opacity: 0;
+  opacity: 1;
 }
 .eyes1 {
   position: relative;
