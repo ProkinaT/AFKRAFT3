@@ -4,73 +4,53 @@ $(document).ready(function(){
   $(".mask").click(function(){
     if ($(".mask").hasClass("mask10")){
       $(".mask").addClass("mask1");
-      $(".head").addClass("mask1");
       setTimeout(function(){
         $(".mask").removeClass("mask10");
-      $(".head").removeClass("mask10");
     }, 100);
   } else if ( $(".mask").hasClass("mask1")){
       $(".mask").addClass("mask2");
-      $(".head").addClass("mask2");
       setTimeout(function(){
         $(".mask").removeClass("mask1");
-        $(".head").removeClass("mask1");
     }, 100);
   } else if ( $(".mask").hasClass("mask2")){
       $(".mask").addClass("mask3");
-      $(".head").addClass("mask3");
       setTimeout(function(){
         $(".mask").removeClass("mask2");
-      $(".head").removeClass("mask2");
     }, 100);
 	} else if ( $(".mask").hasClass("mask3")){
 			$(".mask").addClass("mask4");
-			$(".head").addClass("mask4");
 			setTimeout(function(){
 				$(".mask").removeClass("mask3");
-			$(".head").removeClass("mask3");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask4")){
 			$(".mask").addClass("mask5");
-			$(".head").addClass("mask5");
 			setTimeout(function(){
 				$(".mask").removeClass("mask4");
-			$(".head").removeClass("mask4");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask5")){
 			$(".mask").addClass("mask6");
-			$(".head").addClass("mask6");
 			setTimeout(function(){
 				$(".mask").removeClass("mask5");
-			$(".head").removeClass("mask5");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask6")){
 			$(".mask").addClass("mask7");
-			$(".head").addClass("mask7");
 			setTimeout(function(){
 				$(".mask").removeClass("mask6");
-			$(".head").removeClass("mask6");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask7")){
 			$(".mask").addClass("mask8");
-			$(".head").addClass("mask8");
 			setTimeout(function(){
 				$(".mask").removeClass("mask7");
-			$(".head").removeClass("mask7");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask8")){
 			$(".mask").addClass("mask9");
-			$(".head").addClass("mask9");
 			setTimeout(function(){
 				$(".mask").removeClass("mask8");
-			$(".head").removeClass("mask8");
 		}, 100);
 	} else if ( $(".mask").hasClass("mask9")){
 			$(".mask").addClass("mask10");
-			$(".head").addClass("mask10");
 			setTimeout(function(){
 				$(".mask").removeClass("mask9");
-			$(".head").removeClass("mask9");
 		}, 100);
     };
   });
@@ -387,9 +367,11 @@ $(function(){
 });
 $(function(){
 		$(".restart").click(function (){
-			$("body,html").animate({
-				scrollTop:0
-			}, 800);
+      setTimeout(function(){
+       $("body,html").animate({
+         scrollTop:0
+       },1200);
+     }, 1500);
 		});
 });
 // всплывалка
@@ -406,12 +388,21 @@ $( function() {
     });
   });
   // паттерны фрэйм 2
-  $( function() {
-    $( "hat" ).draggable();
-    $( "mask" ).droppable({
-      drop: function( event, ui ) {
-        $( this )
-          .addClass( "ui-state-highlight" )
-      }
-    });
+  // $( function() {
+  //   $( "hat" ).draggable();
+  //   $( "mask" ).droppable({
+  //     drop: function( event, ui ) {
+  //       $( this )
+  //         .addClass( "ui-state-highlight" )
+  //         $( ".hat" )
+  //         .addClass( ".dr" )
+  //      }
+  //    });
+  //  });
+  // });
+  $(function(){
+     $(".next").click(function (){
+     $(".frame1").clone().appendTo(".frame3")
+     $(".zaafro, .tap, .drag").addClass("boole");
+   });
   });
