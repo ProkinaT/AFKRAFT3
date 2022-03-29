@@ -107,6 +107,13 @@
  }
  .adv {
    top: -6268px;
+   left: 903px;
+   width: 374px;
+   height: 168px;
+ }
+ .ui-tooltip {
+   width: 338px;
+   height: 113px;
  }
  .drag {
    top: -5175px;
@@ -342,9 +349,9 @@
     height: 13vh;
     width: 302px;
   }
-  .adv {
-    top: -6331px;
-    left: 840px;
+  .ui-tooltip {
+    top: -1443px;
+    left: 836px;
   }
   .frame2 {
     top: 768px;
@@ -529,13 +536,12 @@
    height: 9.8vh;
    width: 256px;
  }
- .adv {
-   top: -6072px;
-   height: 140px;
+ .ui-tooltip {
+   position: absolute;
+   top: 72px;
+   height: 80px;
    left: 703px;
-   width: 294px;
- }
- .adv p{
+   width: 275px;
    font-size: 25px;
    padding-top: 20px;
    padding-bottom: 10px;
@@ -741,13 +747,12 @@
    height: 9.8vh;
    width: 291px;
  }
- .adv {
-   top: -5574px;
+ .ui-tooltip {
+   position: absolute;
+   top: 87px;
+   left: 410px;
    height: 91px;
    width: 227px;
-   left: 523px;
- }
- .adv p{
    font-size: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -964,18 +969,8 @@
    height: 12vh;
    width: 279px;
  }
- .adv {
-   top: -5527px;
-   height: 91px;
-   width: 136px;
-   left: 243px;
- }
- .adv p{
-   font-size: 15px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
+ .ui-tooltip {
+   display: none;
  }
  .frame2 {
    top: 896px;
@@ -1187,19 +1182,10 @@
    height: 16vh;
    width: 275px;
  }
- .adv {
-   top: -5419px;
-   height: 91px;
-   width: 141px;
-   left: 212px;
+ .ui-tooltip {
+   display: none;
  }
- .adv p{
-   font-size: 15px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
- }
+
  .frame2 {
    top: 640px;
    left: 0;
