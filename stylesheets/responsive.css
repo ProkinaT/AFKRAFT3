@@ -141,32 +141,13 @@
    left: 21vh;
  }
  .affest {
-  top: -1470px;
+  top: 39px;
   left: 3vw;
  }
- .head {
-   margin-top: 50px;
-   margin-left: 410px;
- }
- .patterns {
-   margin-top: -690px;
-   margin-left: 345px;;
- }
- .eyes1 {
-   top: -578px;
-   left: 552px;
- }
- .nose1 {
-   top: -811px;
-   left: 661px;
- }
- .mouth1 {
-   top: -892px;
-   left: 660px;
- }
+
  .restart {
    width: 24vh;
-   top: -1082px;
+  top: 351px;
    height: 75px;
    left: 57.3vw;
  }
@@ -175,10 +156,16 @@
  }
  .futter {
    width: 77.5vw;
-  top: -1033px;
+      top: 553px;
   height: 4vw;
   left: 43px;
  }
+  .frame3 {
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    clip: rect(-109px, 1057px, 690px, 408px);
+  }
  .logo {
   left: 30px;
   top: 10px;
@@ -208,7 +195,7 @@
    background: url("../images/handl1920.png");
    transform: scale(0.7);
    left: -4000px;
-   top: -1829px;
+   top: -318px;
    width: 1330px;
    height: 746px;
  }
@@ -217,15 +204,15 @@
  }
  .handc {
    transform: scale(0.89);
-   top: -4000px;
+   top: -2000px;
    left: 428px;
  }
  .handc1 {
-   top: -2652px;
+   top: -1141px;
  }
  .handr {
    transform: scale(0.9);
-   top: -3227px;
+   top: -1720px;
    left: 4000px;
  }
  .handr1 {
@@ -364,38 +351,25 @@
     width: 1366px;
     height: 768px
   }
-  .head {
-    margin-top: 105px;
-    margin-left: 376px;
-  }
-  .patterns {
-    margin-top: -710px;
-  }
-  .eyes1 {
-    top: -549px;
-    left: 515px;
-  }
-  .nose1 {
-    top: -794px;
-    left: 617px;
-  }
-  .mouth1 {
-    top: -872px;
-    left: 615px;
-  }
   .affest {
-    top: -1474px;
+    top: 67px;
     left: 55px;
     width: 302px;
   }
   .restart {
-    top: -1133px;
+    top: 321px;
     left: 1053px;
     width: 307px;
     transform: scale(0.8);
   }
+  .frame3 {
+    width: 1366px;
+    height: 768px;
+    top: 4px;
+    clip: rect(2px, 1055px, 698px, 315px);
+  }
   .futter {
-   top: -1066px;
+   top: 564px;
    width: 122vw;
   }
   .logo {
@@ -412,23 +386,24 @@
     transform: scale(0.9);
   }
   .handl {
-    top: -1788px;
+    top: -240px;
   }
   .handl1 {
     left: -49px;
   }
   .handc {
     left: 343px;
+    top: -1843px;
   }
   .handc1 {
-    top: -2388px;
+    top: -843px;
 
   }
   .handr {
     background: url("../images/handr1368.png");
     width: 906px;
     height: 559px;
-    top: -2996px;
+    top: -1455px;
     transform: scale(1);
   }
   .handr1 {
@@ -574,30 +549,8 @@
    height: 815px;
    transform: scale(0.94);
  }
- .head {
-   margin-top: 92px;
-   margin-left: 232px;
- }
- .patterns {
-   margin-top: -710px;
-   margin-left: 166px;
-   height: 750px;
-   width: 750px;
- }
- .eyes1 {
-   top: -494px;
-   left: 369px;
- }
- .nose1 {
-   top: -740px;
-   left: 471px;
- }
- .mouth1 {
-   top: -814px;
-   left: 469px;
- }
  .affest {
-   top: -1453px;
+   top: 26px;
    left: 44px;
    width: 302px;
  }
@@ -608,14 +561,14 @@
    background-image: url("../images/button.png");
    width: 138px;
    height: 85px;
-   top: -1046px;
+   top: 351px;
    left: 902px;
  }
  .restart h1 {
   opacity: 0;
  }
  .futter {
-  top: -971px;
+  top: 594px;
   width: 122vw;
  }
  .logo {
@@ -635,27 +588,34 @@
    left: 70vw;
    width: 326px;
  }
+ .frame3 {
+   width: 1024px;
+   height: 768px;
+   clip: rect(-102px, 906px, 739px, 193px);
+   top: -7px;
+ }
  .handl, .handc, .handr {
    transform: scale(0.9);
  }
  .handl {
-   top: -1723px;
+  top: -242px;
  }
  .handl1 {
    left: -144px;
  }
  .handc {
    left: 244px;
+   top: -1700px;
  }
  .handc1 {
-   top: -2315px;
+   top: -836px;
 
  }
  .handr {
    background: url("../images/handr1368.png");
    width: 906px;
    height: 559px;
-   top: -2928px;
+   top: -1447px;
    transform: scale(1);
  }
  .handr1 {
@@ -801,30 +761,8 @@
    height: 1082px;
    transform: scale(0.94);
  }
- .head {
-   margin-top: 235px;
-   margin-left: 113px;
- }
- .patterns {
-   margin-top: -722px;
-   margin-left: 52px;
-   height: 750px;
-   width: 750px;
- }
- .eyes1 {
-   top: -482px;
-   left: 254px;
- }
- .nose1 {
-   top: -726px;
-   left: 355px;
- }
- .mouth1 {
-   top: -805px;
-   left: 354px;
- }
  .affest {
-   top: -1597px;
+   top: 17px;
    left: 68px;
    width: 385px;
  }
@@ -835,14 +773,14 @@
    background-image: url("../images/button.png");
    width: 138px;
    height: 85px;
-   top: -919px;
+   top: 608px;
    left: 645px;
  }
  .restart h1 {
   opacity: 0;
  }
  .futter {
-   top: -842px;
+   top: 856px;
    width: 108vw;
  }
  .logo {
@@ -860,11 +798,17 @@
  .name {
    display: none;
  }
+ .frame3 {
+   width: 768px;
+   height: 1024px;
+   top: 124px;
+   clip: rect(-183px, 790px, 831px, 73px);
+ }
  .handl, .handr {
    transform: scale(0.9);
  }
  .handl {
-   top: -1664px;
+   top: -54px;
  }
  .handl1 {
    left: -253px;
@@ -874,16 +818,17 @@
    left: 115px;
    width: 512px;
    height: 967px;
+   top: -1732px;
  }
  .handc1 {
-   top: -2457px;
+   top: -849px;
 
  }
  .handr {
    background: url("../images/handr1368.png");
    width: 906px;
    height: 559px;
-   top: -3017px;
+   top: -1405px;
    transform: scale(1);
  }
  .handr1 {
@@ -891,7 +836,7 @@
  }
 }
 /* iphone 414*896*/
-@media all and (min-device-width: 359px) and (max-device-width: 414px){
+@media all and (min-device-width: 361px) and (max-device-width: 414px){
  .site {
    width: 414px;
    height: 1792;
@@ -1038,33 +983,8 @@
    width: 828px;
    height: 1082px;
  }
- .head, .patterns, .eyes1, .nose1, .mouth1, .affest, .restart, .futter {
-   transform: scale(0.6)
- }
- .head {
-   margin-top: 142px;
-   margin-left: -122px;
- }
- .patterns {
-   margin-top: -722px;
-   margin-left: -149px;
-   height: 750px;
-   width: 750px;
- }
- .eyes1 {
-   top: -460px;
-   left: 30px;
- }
- .nose1 {
-   top: -718px;
-   left: 132px;
- }
- .mouth1 {
-   top: -873px;
-   left: 131px;
- }
  .affest {
-   top: -1528px;
+   top: -7px;
    left: -24px;
    width: 385px;
    transform: scale(0.75);
@@ -1072,18 +992,21 @@
  h2 {
    font-size: 53px;
  }
+ .futter, .restart {
+   transform: scale(0.6);
+ }
  .restart {
    background-image: url("../images/button.png");
    width: 138px;
    height: 85px;
-   top: -919px;
+   top: 510px;
    left: 277px;
  }
  .restart h1 {
   opacity: 0;
  }
  .futter {
-   top: -915px;
+   top: 690px;
    width: 168vw;
    left: -138px;
  }
@@ -1102,9 +1025,14 @@
  .name {
    display: none;
  }
+ .frame3 {
+   width: 414px;
+   height: 896px;
+   clip: rect(192px, 418px, 767px, -4px);
+ }
  .handl {
    background: url("../images/handl_i.png");
-   top: -1446px;
+   top: 76px;
    width: 474px;
    height: 339px;
  }
@@ -1118,14 +1046,14 @@
    height: 654px;
  }
  .handc1 {
-   top: -2169px;
+   top: -649px;
 
  }
  .handr {
    background: url("../images/handr_i.png");
    width: 347px;
    height: 440px;
-   top: -2612px;
+   top: -1118px;
  }
  .handr1 {
    left: 215px;
@@ -1148,19 +1076,19 @@
  }
  .mask {
    margin-top: -4px;
-   margin-left: -144px;
+   margin-left: -143px;
  }
  .tap {
    transform: scale(0.6);
-   top: -209px;
+   top: -210px;
    left: 90px;
  }
  .hat {
-   top: -772px;
+   top: -753px;
    left: 14vw;
  }
  .glines {
-   top: -1055px;
+   top: -1036px;
    left: 36vw;
  }
  .veer {
@@ -1168,23 +1096,23 @@
    top: 321px;
  }
  .cube {
-   top: 351px;
+   top: 353px;
    left: 33.5vw;
  }
  .oval {
    display: none;
  }
  .whtriangle {
-   top: -1519px;
+   top: -1500px;
    left: 55.8vw;
    transform: scale(0.48);
  }
  .half {
-   top: -1676px;
+   top: -1657px;
    left: -27.4vw;
  }
  .boldpoloski {
-   top: -2216px;
+   top: -2197px;
    left: -23vw;
  }
  .pavlin {
@@ -1194,58 +1122,58 @@
    display: none;
  }
  .zigzag {
-   top: -2661px;
+   top: -2642px;
    left: 0vw;
  }
  .scratchesgor {
    display: none;
  }
  .pero {
-   top: -2957px;
+   top: -2942px;
    left: -2vw;
  }
  .zigzagb{
-   top: -3295px;
+   top: -3283px;
    left: -43vw;
  }
  .voidtriangle {
-   top: -3667px;
+   top: -3648px;
    left: -17.5vw;
  }
  .scratch {
-   top: -3777px;
+   top: -3758px;
    left: 1.5vw;
  }
  .plane {
-   top: -3500px;
+   top: -3481px;
    left: -24vw;
  }
  .drag {
    transform: scale(0.46);
-   top: -4063px;
+   top: -4044px;
    left: -39px;
  }
  .circlegreen {
-   top: -4057px;
+   top: -4038px;
    left: -10px;
  }
  .eyes {
-   top: -4354px;
+   top: -4335px;
    left: -5px;
  }
  .nose {
-   top: -4612px;
+   top: -4598px;
    left: 96px;
  }
  .mouth {
-   top: -4795px;
+   top: -4780px;
    left: 89px;
  }
  h1 {
    font-size: 65px;
  }
  .zaafro {
-   top: -5265px;
+   top: -5250px;
    padding-top: 6px;
    width: 594px;
    left: -122px;
@@ -1254,7 +1182,7 @@
  }
  .next {
    padding-top: 10px;
-   top: -4822px;
+   top: -4807px;
    left: 140px;
    height: 16vh;
    width: 275px;
@@ -1278,33 +1206,11 @@
    width: 360px;
    height: 640px;
  }
- .head, .patterns, .eyes1, .nose1, .mouth1, .affest, .restart, .futter {
+ .affest, .restart, .futter {
    transform: scale(0.44)
  }
- .head {
-   margin-top: 38px;
-   margin-left: -154px;
- }
- .patterns {
-   margin-top: -722px;
-   margin-left: -185px;
-   height: 750px;
-   width: 750px;
- }
- .eyes1 {
-   top: -466px;
-   left: 5px;
- }
- .nose1 {
-   top: -726px;
-   left: 108px;
- }
- .mouth1 {
-   top: -904px;
-   left: 103px;
- }
  .affest {
-   top: -1427px;
+   top: -13px;
    left: -63px;
    width: 385px;
    transform: scale(0.56);
@@ -1316,14 +1222,14 @@
    background-image: url("../images/button.png");
    width: 151px;
    height: 85px;
-   top: -1035px;
+   top: 292px;
    left: 230px;
  }
  .restart h1 {
   opacity: 0;
  }
  .futter {
-   top: -1060px;
+   top: 437px;
    width: 229vw;
    left: -230px;
  }
@@ -1342,12 +1248,18 @@
  .name {
    display: none;
  }
+ .frame3 {
+       top: -32px;
+   height: 640px;
+   width: 360px;
+   clip: rect(149px, 372px, 551px, 0px);
+ }
  .handl, .handc, .handr {
    transform: scale(0.77);
  }
  .handl {
    background: url("../images/handl_i.png");
-   top: -1499px;
+   top: -83px;
    width: 474px;
    height: 339px;
  }
@@ -1361,14 +1273,14 @@
    height: 654px;
  }
  .handc1 {
-   top: -2169px;
+   top: -747px;
 
  }
  .handr {
    background: url("../images/handr_i.png");
    width: 347px;
    height: 440px;
-   top: -2650px;
+   top: -1236px;
  }
  .handr1 {
    left: 160px;
