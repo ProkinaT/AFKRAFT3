@@ -29,13 +29,13 @@
 background-image: url("../images/redb.svg");
 }
 .mask1 {
-  background: url("../images/mask1.svg");
+  background: url("../images/mask1.png");
 }
 .mask2 {
-  background: url("../images/mask2.svg");
+  background: url("../images/mask2.png");
 }
 .mask3 {
-  background: url("../images/mask3.svg");
+  background: url("../images/mask3.png");
 }
 .mask4 {
   background: url("../images/mask 4.svg");
@@ -53,7 +53,7 @@ background-image: url("../images/redb.svg");
   background: url("../images/mask8.svg");
 }
 .mask9 {
-  background: url("../images/mask9.svg");
+  background: url("../images/mask9.png");
 }
 .tap {
   position: relative;
@@ -380,6 +380,10 @@ background-color: #3c3c3c;
    background: white;
  }
 
+ .yellow {
+   background-color: yellow;s
+ }
+
 .frame2 {
   position: absolute;
   overflow: hidden;
@@ -387,49 +391,15 @@ background-color: #3c3c3c;
   height: 900px;
   top: 900px;
 }
-.head {
-  display: flex;
-  margin: auto;
-  margin-top: 140px;
-  justify-content: center;
-  height: 638px;
-  width: 700px;
-  opacity:0;
+.frame3 {
+  position: absolute;
+  clip: rect(-109px, 1079px, 834px, 366px);
+  overflow: hidden;
+  width: 1440px;
+  height: 900px;
+  top: -24px;
 }
-.patterns {
-  display: flex;
-  margin: auto;
-  margin-top: -720px;
-  margin-left: 300px;
-  justify-content: center;
-  height: 800px;
-  width: 800px;
-  opacity: 1;
-}
-.eyes1 {
-  position: relative;
-  width: 358px;
-  height: 184px;
-  top: -549px;
-  left: 522px;
-  opacity: 0;
-
-}
-.nose1 {
-  position: relative;
-  width: 155px;
-  height: 364px;
-  top: -776px;
-  left: 634px;
-  opacity: 0;
-
-}
-.mouth1 {
-  position: relative;
-  width: 167px;
-  height: 163px;
-  top: -863px;
-  left: 638px;
+.boole {
   opacity: 0;
 }
 .op {
@@ -440,8 +410,8 @@ background-color: #3c3c3c;
   position: relative;
   width: 430px;
   height: 138px;
-  top: -1529px;
-  left: 50px;
+  top: 41px;
+  left: 69px;
   text-align: left;
   line-height: 60px;
 }
@@ -449,7 +419,7 @@ background-color: #3c3c3c;
   position: relative;
   width: 289px;
   height: 85px;
-  top: -1056px;
+  top: 427px;
   left: 1104px;
   background-color: black;
   text-align: center;
@@ -462,7 +432,7 @@ background-color: #3c3c3c;
   position: relative;
   width: 1440px;
   height: 87px;
-  top: -977px;
+  top: 677px;
   left: 0;
   background-color: black;
 }
@@ -492,29 +462,29 @@ background-color: #3c3c3c;
   position: relative;
   width: 713px;
   height: 451px;
-  top: -192vh;
+  top: -17vh;
   left: -400vw;
   background: url("../images/handl.svg");
 }
 .handl1 {
-  left: 0px;
+ left: -20px;
 }
 .handc {
   position: relative;
   width: 603px;
   height: 815px;
-  top: -4342px;
+  top: -1573px;
   left: 397px;
   background: url("../images/handc.svg");
 }
 .handc1 {
-  top: -2342px;
+  top: -768px;
 }
 .handr {
   position: relative;
   width: 782px;
   height: 570px;
-  top: -2957px;
+  top: -1381px;
   left: 2000px;
   background: url("../images/handr.svg");
 }
