@@ -370,6 +370,8 @@ background-color: #3c3c3c;
 }
 
  .ui-tooltip {
+   top: -1691px;
+   left: 879px;
    width: 338px;
    height: 113px;
    padding-top: 10px;
